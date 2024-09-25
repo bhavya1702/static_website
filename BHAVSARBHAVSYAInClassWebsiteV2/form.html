@@ -1,0 +1,88 @@
+<!-- BHAVYA BHAVSAR -->
+
+<!doctype html>
+<html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>Contact Us</title>
+            <link rel="stylesheet" type="text/css" href="css/index.css">
+        </head>
+        <body onload="showDate()">
+
+
+            <h1>Ahemdabad</h1>
+            <h2>World Heritage City</h2>
+
+            <div class="navflexcontainer">
+                <div class="navflexitem">
+                    <a href="index.html" id="navlink">HOME</a>
+                    <a href="Tables.html" id="navlink">TABLE</a>
+                    <a href="images.html" id="navlink">IMAGES</a>
+                    <a href="form.html" id="navlink">FORM</a>
+
+                    <div class="flexitem">&nbsp;</div>
+
+                    <a href="https://www.facebook.com/" target="_blank"><img src="Images/fb.png" height="20" width="20"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="Images/twitter.png" height="20" width="20"></a>
+                </div>
+            </div>
+
+            <div class="maincontainer">
+                <form class="form">
+                    <label>Please Enter Your Name: </label>
+                    <input type="text" id="fname"><br>
+                    <label for="lname">Please Enter Your Last Name: </label>
+                    <input type="text" id="lname"><br>
+                    <label for="tel">Please enter your phone no: </label>
+                    <input type="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"><br>
+
+                    <label>Please Enter Your Gender: </label>
+                    <input type="radio" name="female" />Female
+                    <input type="radio" name="male" />Male <br>
+                    <label>Please enter your DOB: </label>
+                    <input type="date"><br>
+                    <label>Please Enter Your Address: </label>
+                    <textarea id="address" rows="1" cols="15" maxlength="50"></textarea><br>
+                    <label>Please check the places you visited in Ahemdabad: </label><br>
+                    <input type="checkbox">
+                    <label>Riverfront Walk</label>&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox">
+                    <label>ManekChowk</label>
+                    <input type="checkbox">
+                    <label>Historic Site</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox">
+                    <label>Science-city</label><br>
+                    <input type="checkbox">
+                    <label>Patang Hotel</label><br>
+
+
+
+                    <label>Rate your exeperiance at Ahemdabad: </label><br>
+                    <label>Rate your exeperiance at Ahemdabad: </label>
+                    <select>
+                        <option value="0" selected>Select your ratings</option>
+                        <option value="1">Excellent</option>
+                        <option value="2">Good</option>
+                        <option value="3">Poor</option>
+                        <option value="4">Very bad</option>
+                    </select><br>
+                    <label>Please share us time when you are available: </label>
+                    <input type="time"><br>
+                    <label>Share your memory from one of the favourite location: </label>
+                    <input type="file" name="myfile"><br>
+
+                    <div class="btn">
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+
+
+        <div class="footercontainer">
+            <footer>
+                &copy; BHAVYA BHAVSAR | <a href="mailto:bhavya.bhavsar@student.sl.on.ca">bhavya.bhavsar@student.sl.on.ca</a> | <span id="currentDate"></span>
+            </footer>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
